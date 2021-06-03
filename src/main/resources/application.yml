@@ -6,13 +6,13 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 123456
+    url: postgres://kzlitsjuoleyrg:b3c1aafb5f8c2c2e6a54af66d0e3821d41dda8b6131bc70f63ad5e898a032b81@ec2-23-23-128-222.compute-1.amazonaws.com:5432/d76b5ah5s04tva
+    username: kzlitsjuoleyrg
+    password: b3c1aafb5f8c2c2e6a54af66d0e3821d41dda8b6131bc70f63ad5e898a032b81
   jpa:
     show-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: nome
 
